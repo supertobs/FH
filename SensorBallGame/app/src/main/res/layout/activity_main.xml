@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fhku.sensorballgame.BallGameActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:text="Ball Game"
+            android:id="@+id/button_ball_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="start" />
+
+        <Button
+            android:text="Highscore"
+            android:id="@+id/button_sensor_log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="start" />
+
+        <Button
+            android:text="Reset Highscore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:id="@+id/button2"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:onClick="start" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
